@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxes</title>
+    <style>
+        
+        body{
+            background-color: rgba(43,149,201,1);
+        }
+        header{
+            background: rgb(12,42,63);
+            background: linear-gradient(169deg, rgba(12,42,63,1) 0%, rgba(9,29,231,1) 33%, rgba(9,215,231,1) 88%);
+            
+            padding: 100px;
+            text-align: center;
+            margin: -10px;
+        }
+        main{
+            word-break: break-all;
+            background: rgb(12,42,63);
+background: linear-gradient(90deg, rgba(12,42,63,1) 0%, rgba(9,29,231,1) 33%, rgba(9,215,231,1) 88%);
+            border-radius: 5px;
+            margin-top: -10px;
+            margin-right: 20px;
+            margin-bottom: 0px;
+            margin-left: 20px;
+            text-align: center;
+            padding: 10px;
+            padding-bottom: 100px;
+            box-shadow: 0px 5px 5px #000000de;
+
+        }
+        div#questions{
+
+            border-radius: 20px 0px;
+            background-color: #f9eac3;
+            margin-top: 0px;
+            margin-left: 30px;
+            margin-bottom: 0px;
+            margin-right: 30px;
+            text-align: left;
+            box-shadow: 5px 5px 20px #000000;
+            resize: both;
+            overflow: auto;
+        }
+        div#questions > ul{
+            margin-left: -20px;
+        }
+        
+        .btn{
+            height: 16px;
+            background-color: #ffffff;
+            color: #db8e1b;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+        }
+        .btn:active{
+            background-color: #000000;
+        }
+        .question{
+            margin-right: 10px;
+            
+        }
+        .yt-video-container{
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; 
+            height: 0;
+        }
+        .yt-video-container iframe{
+            position: absolute;
+            top:0;
+            left: 10%;
+            width: 80%;
+            height: 80%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Caixa de h1 (box level)</h1>
+        <a href="#">link qualquer (inline level)</a>
+        <a href="index.html">Inicio</a>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+       <h1>Box 2</h1>
+       <div id="questions">
+        <ul type = none>
+            <li class="question"><button class="btn"></button> Questao 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110</li>
+            <li class = "question"><button class="btn"></button> Questao 2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora maiores, assumenda commodi aspernatur itaque eligendi! Distinctio porro saepe odio placeat enim, perferendis pariatur est, consequuntur, cum quidem blanditiis nam cupiditate?</li>
+            <li class = "question"><button class="btn"></button> Questao 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolorum id totam odio atque. Optio aspernatur repellendus possimus, delectus corrupti dolores! Hic voluptatum dolor minus nesciunt omnis aut voluptate quo?</li>
+            <li class = "question"><button class="btn"></button> Questao 4 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, commodi quod totam id quasi, cumque est delectus velit quis aliquid sint pariatur nisi consequatur officia earum harum ad repudiandae ipsum.</li>
+        </ul>
+       </div>
+       
+    </main>
+    <footer>
+        <div class="yt-video-container">
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xS2D9x8odoE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>
+    </footer>
+</body>
+</html>
